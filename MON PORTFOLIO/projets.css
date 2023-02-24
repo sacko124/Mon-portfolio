@@ -1,0 +1,123 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ .bck-img {
+  
+/* 
+  background-color: rgb(34, 34, 34);
+  background-size: cover;
+  background-position: center;
+  max-width: 2560px;
+  height: 800px;
+  margin: 0 auto; */
+} 
+.nav{
+  display: flex;
+}
+.container {
+  /* width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #2d2d2d; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #2d2d2d;
+  
+}
+
+.nav > a {
+  margin-right: 40px;
+  color: white;
+  background-color: #2d2d2d;
+  transition: all 150ms ease-in-out;
+}
+.nav > a:last-child {
+  margin-right: 0;
+}
+
+.nav > a:hover {
+  color: rgb(179, 179, 179);
+}
+
+.logo {
+  font-size: 18px;
+  color: #7ACED3;;
+  transition: all 150ms ease-in-out;
+}
+.logo:hover {
+  color: rgb(179, 179, 179);
+}
+
+.header-background {
+  backdrop-filter: blur(6px);
+  height: 80px;
+}
+
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center ;
+    background-color: rgba(0, 0, 0, 5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+
+/*project Section */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba( 0, 0, 0, 9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+   
+}
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;

@@ -1,0 +1,138 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ .bck-img {
+  
+/* 
+  background-color: rgb(34, 34, 34);
+  background-size: cover;
+  background-position: center;
+  max-width: 2560px;
+  height: 800px;
+  margin: 0 auto; */
+} 
+.nav{
+  display: flex;
+}
+.container {
+  /* width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #2d2d2d; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #2d2d2d;
+  
+}
+
+.nav > a {
+  margin-right: 40px;
+  color: white;
+  background-color: #2d2d2d;
+  transition: all 150ms ease-in-out;
+}
+.nav > a:last-child {
+  margin-right: 0;
+}
+
+.nav > a:hover {
+  color: rgb(179, 179, 179);
+}
+
+.logo {
+  font-size: 18px;
+  color: #7ACED3;;
+  transition: all 150ms ease-in-out;
+}
+.logo:hover {
+  color: rgb(179, 179, 179);
+}
+
+.header-background {
+  backdrop-filter: blur(6px);
+  height: 80px;
+}
+
+
+body{
+    background-image: url(image/gty.jpg);
+    
+}
+
+
+/* Cont Section */
+.grand{
+    margin: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ .haut h1{
+    
+ }
+ .cont input{
+       margin-left: 5%;
+       margin-top: 5%;
+       
+     
+       width: 350px;
+       height: 40px;
+ 
+ }
+ textarea{
+     margin: 7%;
+     border: solid 3px;
+    
+     
+     width: 350px;
+     height: 200px;
+ }
+ button{
+     border-radius: 20px 60px 60px 20px;
+     background-color: #2ECC71;
+     /* width: 100px; */
+     /* height: 50px;
+     margin-left: 15%; */
+ }
+ .haut{
+     
+     color: white;
+    text-align: center;
+ }
+ .bas{
+     color: white;
+     padding-left: 50px;
+     margin-top: 15%;
+     font-size: 30px;
+   
+ }
+ .bas ul li{
+    list-style-type: none;
+ }
+ @media screen and (max-width:1110px){
+   .grand{
+    display: flex;
+    flex-wrap: wrap;
+   }
+ }
